@@ -21,6 +21,7 @@
   padding: 5rem 1rem;
   max-width: var(--max-width);
   margin: auto;
+  
 }
 
 .section__title {
@@ -519,3 +520,13 @@ footer p {
   border-color: #aaa;
 }
 
+button {
+  cursor: pointer; /* Makes it look clickable */
+}
+
+a button {
+  text-decoration: none; /* Removes underline from button inside anchor tag */
+}
+.nav__links a {
+  color: var(--extra-light);
+}
